@@ -1,3 +1,35 @@
 .root__header {
-    max-width: 1184px;
+    outline: 1px solid red;
+}
+
+@media screen and (width >1024px) {
+    .root__header {
+        max-width: 1184px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (width > 816px) and (width <=1024px) {
+    .root__header {
+        max-width: 928px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (width > 336px) and (width <=816px) {
+    .root__header {
+        max-width: 720px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (width <=336px) {
+    .root__header {
+        max-width: 288px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
