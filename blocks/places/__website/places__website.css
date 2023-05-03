@@ -1,0 +1,8 @@
+.places__website {
+    align-self: end;
+    padding: 0;
+    max-height: 46px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
