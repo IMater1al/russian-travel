@@ -14,4 +14,4 @@
 
 P.S Сайт сделан адаптивным под различные устройства
 
-**_[Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)_**
+**_[Ссылка на макет в Figma](https://imater1al.github.io/russian-travel/)_**
