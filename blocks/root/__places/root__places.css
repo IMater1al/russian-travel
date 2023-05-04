@@ -79,6 +79,10 @@
         gap: 50px;
     }
 
+    .places__place {
+        row-gap: 32px;
+    }
+
     .places__website {
         margin-left: 16px;
         margin-right: 16px;
