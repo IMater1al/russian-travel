@@ -1,7 +1,6 @@
 /* <--Vendor imports--> */
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
-@import url('../vendor/fonts/_inter/fonts_inter.css');
 /* <--Blocks import--> */
 /* <--Block .root--> */
 @import url('../blocks/root/root.css');
