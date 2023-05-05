@@ -1,4 +1,5 @@
 .intro__text {
+    max-width: 690px;
     margin: 0 0 33px 0;
     padding: 0;
     font-weight: 400;
@@ -7,10 +8,14 @@
     text-align: left;
 }
 
+@media screen and (width > 675px) and (width <=816px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
 @media screen and (width <=675px) {
     .intro__text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.63;
+        max-width: 288px;
     }
 }
