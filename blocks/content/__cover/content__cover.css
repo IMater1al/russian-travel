@@ -1,0 +1,27 @@
+@media screen and (width >1024px) {
+    .content__cover {
+        margin: 92px auto 0;
+        max-width: 1184px;
+    }
+}
+
+@media screen and (width > 816px) and (width <=1024px) {
+    .content__cover {
+        margin: 92px auto 0;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (width > 675px) and (width <=816px) {
+    .content__cover {
+        margin: 90px auto 0;
+        max-width: 768px;
+    }
+}
+
+@media screen and (width <=675px) {
+    .content__cover {
+        margin: 66px auto 0;
+        max-width: 320px;
+    }
+}
