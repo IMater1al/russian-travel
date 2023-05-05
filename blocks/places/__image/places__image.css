@@ -6,3 +6,25 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media screen and (width > 816px) and (width <=1024px) {
+    .places__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+
+@media screen and (width > 675px) and (width <=816px) {
+    .places__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media screen and (width <=675px) {
+    .places__image {
+        grid-row: 3;
+        width: 320px;
+        height: 320px;
+    }
+}

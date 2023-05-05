@@ -2,3 +2,11 @@
     margin: 0 0 0 0;
     padding: 0;
 }
+
+@media screen and (width <=675px) {
+    .places__paragraphs {
+        margin-left: 16px;
+        margin-right: 16px;
+        grid-row: 4;
+    }
+}

@@ -5,3 +5,25 @@
     row-gap: 48px;
     list-style: none;
 }
+
+@media screen and (width > 816px) and (width <=1024px) {
+    .places__place {
+        column-gap: 32px;
+    }
+}
+
+@media screen and (width > 675px) and (width <=816px) {
+    .places__place {
+        column-gap: 28px;
+    }
+
+    .places__place:first-child > .places__title {
+        word-spacing: 9999px;
+    }
+}
+
+@media screen and (width <=675px) {
+    .places__place {
+        row-gap: 32px;
+    }
+}

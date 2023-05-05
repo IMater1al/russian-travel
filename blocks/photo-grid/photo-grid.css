@@ -2,3 +2,42 @@
     display: grid;
     grid-auto-flow: row dense;
 }
+
+@media screen and (width >1184px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 284px);
+        grid-template-rows: repeat(auto-fill, 213px);
+        row-gap: 16px;
+        column-gap: 16px;
+        grid-auto-rows: 213px;
+    }
+}
+
+@media screen and (width > 928px) and (width <=1184px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 300px);
+        grid-template-rows: repeat(auto-fill, 225px);
+        row-gap: 14px;
+        column-gap: 14px;
+        grid-auto-rows: 225px;
+    }
+}
+
+@media screen and (width > 720px) and (width <=928px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 352px);
+        grid-template-rows: repeat(auto-fill, 264px);
+        row-gap: 16px;
+        column-gap: 16px;
+        grid-auto-rows: 264px;
+    }
+}
+
+@media screen and (width <=720px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, 288);
+        grid-template-rows: repeat(auto-fill, 216px);
+        row-gap: 12px;
+        grid-auto-rows: 216px;
+    }
+}

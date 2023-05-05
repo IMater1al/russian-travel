@@ -3,3 +3,12 @@
     justify-content: space-between;
     width: 100%;
 }
+
+@media screen and (width <=675px) {
+    .footer {
+        width: 100%;
+        flex-direction: column;
+        gap: 48px;
+        align-items: flex-start;
+    }
+}

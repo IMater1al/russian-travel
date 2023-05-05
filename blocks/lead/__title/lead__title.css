@@ -7,3 +7,18 @@
     line-height: 1.04;
     text-align: center;
 }
+
+@media screen and (width >1024px) {
+    .lead__title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (width <=675px) {
+    .lead__title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 1.1;
+        text-align: center;
+    }
+}

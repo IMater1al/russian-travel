@@ -5,3 +5,20 @@
     font-size: 72px;
     line-height: 1.06;
 }
+
+@media screen and (width > 675px) and (width <=816px) {
+    .places__title {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+}
+
+@media screen and (width <=675px) {
+    .places__title {
+        margin-left: 16px;
+        margin-right: 16px;
+        grid-row: 1;
+        font-size: 32px;
+        line-height: 1.09;
+    }
+}

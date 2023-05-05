@@ -6,3 +6,11 @@
     flex-direction: column;
     height: 100%;
 }
+
+@media screen and (width <=675px) {
+    .places__website {
+        margin-left: 16px;
+        margin-right: 16px;
+        grid-row: 2;
+    }
+}

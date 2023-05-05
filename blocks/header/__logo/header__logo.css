@@ -7,3 +7,9 @@
     object-position: center;
     background-repeat: no-repeat;
 }
+
+@media screen and (width <=675px) {
+    .header__logo {
+        background-image: url('../../../images/header-logo-sm.svg');
+    }
+}

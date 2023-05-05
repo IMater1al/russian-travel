@@ -24,14 +24,4 @@
         margin: 16px auto 0;
         max-width: 288px;
     }
-
-    .header__logo {
-        background-image: url('../../../images/header-logo-sm.svg');
-    }
-
-    .header__lang-link {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.11px;
-    }
 }

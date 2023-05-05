@@ -5,3 +5,11 @@
     font-size: 12px;
     line-height: 1.5;
 }
+
+@media screen and (width <=675px) {
+    .intro__list-title {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
