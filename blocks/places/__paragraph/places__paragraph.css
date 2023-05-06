@@ -11,13 +11,7 @@
     padding: 0;
 }
 
-@media screen and (width > 675px) and (width <=816px) {
-    .places__paragraph {
-        font-size: 16px;
-    }
-}
-
-@media screen and (width <=675px) {
+@media screen and (width <=816px) {
     .places__paragraph {
         font-size: 16px;
     }

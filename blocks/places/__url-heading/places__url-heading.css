@@ -11,14 +11,12 @@
 
 @media screen and (width > 816px) and (width <=1024px) {
     .places__url-heading {
-        font-size: 12px;
         line-height: 1.7;
     }
 }
 
 @media screen and (width > 675px) and (width <=816px) {
     .places__url-heading {
-        font-size: 12px;
         line-height: 1;
     }
 }
